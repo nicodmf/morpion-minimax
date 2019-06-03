@@ -1,0 +1,27 @@
+version: '3'
+services:
+    web:
+        #ports:
+        #- 90:80
+        env_file: [ .env ]
+        networks: [traefik]
+        labels:
+            - "traefik.backend=bv-apache"
+            - "traefik.frontend.rule=Host:apache-${DOMAIN}"
+            - "traefik.port=3000"
+    node:
+        build: ./docker/node
+        volumes:
+            - ./:/app
+        #ports:
+        #- 8080:8080
+        #- 3000:3000
+        env_file: [ .env ]
+        networks: [traefik]
+        labels:
+            - "traefik.backend=bv-node"
+            - "traefik.frontend.rule=Host:${DOMAIN}"
+            - "traefik.port=3000"
+networks:
+    traefik:
+        external: true

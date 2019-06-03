@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/morpion-minimax/static/css/main.31f86a3b.chunk.css",
+    "main.js": "/morpion-minimax/static/js/main.c8254bd1.chunk.js",
+    "main.js.map": "/morpion-minimax/static/js/main.c8254bd1.chunk.js.map",
+    "runtime~main.js": "/morpion-minimax/static/js/runtime~main.13678b72.js",
+    "runtime~main.js.map": "/morpion-minimax/static/js/runtime~main.13678b72.js.map",
+    "static/js/2.60e0bc6e.chunk.js": "/morpion-minimax/static/js/2.60e0bc6e.chunk.js",
+    "static/js/2.60e0bc6e.chunk.js.map": "/morpion-minimax/static/js/2.60e0bc6e.chunk.js.map",
+    "index.html": "/morpion-minimax/index.html",
+    "precache-manifest.2ed3ad9aec4824455a417767933891dc.js": "/morpion-minimax/precache-manifest.2ed3ad9aec4824455a417767933891dc.js",
+    "service-worker.js": "/morpion-minimax/service-worker.js",
+    "static/css/main.31f86a3b.chunk.css.map": "/morpion-minimax/static/css/main.31f86a3b.chunk.css.map"
+  }
+}

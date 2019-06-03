@@ -1,0 +1,7 @@
+version: '3'
+services:
+    web:
+        image: httpd:2.4-alpine
+        volumes:
+            - ./build:/usr/local/apache2/htdocs
+            - ./docker/apache/httpd.conf:/usr/local/apache2/conf/httpd.conf
